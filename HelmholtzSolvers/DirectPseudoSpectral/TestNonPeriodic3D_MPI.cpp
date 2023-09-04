@@ -142,7 +142,7 @@ int main ( int argc, char *argv[] )
     
     ComputeError(V,ExactFunction);
     
-    // Deatroy plan    
+    // Destroy plan    
     for (int kk{}; kk < Ns; ++kk)
         Deallocate(V[kk].phi,2*Nx,NY,N);
     
