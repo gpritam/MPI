@@ -127,7 +127,7 @@ int main ( int argc, char *argv[] )
     WriteFile(W,ExactFunction);
     ComputeError(W,ExactFunction);
     
-    // Deatroy plan    
+    // Destroy plan    
     Deallocate(V,Nx+2*offset,offset);
     Deallocate(W,Nx+2*offset,offset);
     
