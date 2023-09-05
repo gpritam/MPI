@@ -193,7 +193,7 @@ int main ( int argc, char *argv[] )
     WriteFile(V,ExactFunction);
     ComputeError(V,ExactFunction);
     
-    // Deatroy plan    
+    // Destroy plan    
     Deallocate(V,Nx+2*offset,Ny+2*offset,Nz+2*offset,offset,offset,offset);
     
     DestroyPDEPlan();
